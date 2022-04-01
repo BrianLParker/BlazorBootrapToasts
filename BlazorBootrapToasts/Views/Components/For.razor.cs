@@ -1,7 +1,3 @@
-// ----------------------------------
-// Copyright (c) 2021, Brian Parker
-// ----------------------------------
-
 using System.Collections.Generic;
 using Microsoft.AspNetCore.Components;
 

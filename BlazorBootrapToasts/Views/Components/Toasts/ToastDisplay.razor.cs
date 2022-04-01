@@ -1,7 +1,3 @@
-// ----------------------------------
-// Copyright (c) 2021, Brian Parker
-// ----------------------------------
-
 using System;
 using BlazorBootrapToasts.Brokers.DateTimes;
 using BlazorBootrapToasts.Models.Toasts;
