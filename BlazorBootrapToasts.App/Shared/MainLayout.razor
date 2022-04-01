@@ -1,0 +1,40 @@
+﻿@inherits LayoutComponentBase
+
+<div class="page">
+    <div class="sidebar">
+        <NavMenu />
+    </div>
+
+    <main>
+        <div class="top-row px-4">
+        </div>
+
+        <article class="content px-4">
+            @Body
+        </article>
+    </main>
+</div>
+<ToastAnchor />
+ <Toast @ref=usersToast >
+        <Heading>
+            Information
+        </Heading>
+        <Icon>
+            <img src="images/icon-144x144.png" height="16" width="16" class="mr-3" />
+        </Icon>
+        <Content>
+            The following users and roles are seeded into the database for testing.
+            <ul>
+                <li>abigail@abigail.com (Administrator)</li>
+                <li>cruz@cruz.com (multiple roles)</li>
+                <li>serenity@serenity.com (Moderator)</li>
+                <li>tyler@tyler.com (no roles)</li>
+            </ul>
+            They all share the same password: "Pass123$"
+            
+        </Content>
+    </Toast>
+
+    @code {
+         private Toast usersToast;
+    }

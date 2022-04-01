@@ -1,0 +1,21 @@
+﻿
+
+.toast-anchor {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    /*height: calc(100vh - var(--top-margin));*/
+    max-height: calc(100vh - var(--top-margin));
+    width: 380px;
+    margin: 5px;
+    padding-top: var(--top-margin);
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    align-content: flex-end;
+    overflow-y: hidden;
+    align-content: baseline;
+}
+    .toast-anchor:hover {
+        overflow-y: auto;
+    }
